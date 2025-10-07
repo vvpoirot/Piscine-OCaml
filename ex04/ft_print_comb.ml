@@ -20,6 +20,6 @@ let ft_print_comb () =
                         c := !b + 1;
 		)
         done;
-        print_char '\n';;
+        print_string "\n";;
 
 ft_print_comb ();;
