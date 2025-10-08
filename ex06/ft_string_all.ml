@@ -10,5 +10,7 @@ let ft_string_all f str =
 	!final;;
 
 let is_digit c = c >= '0' && c <= '9';;
-ft_string_all is_digit "0123456789";;
-ft_string_all is_digit "012EAS67B9";;
+print_endline "test: 0123456789 expect true";;
+print_endline (string_of_bool (ft_string_all is_digit "0123456789"));;
+print_endline "test: 012EAS67B9 expect false";;
+print_endline (string_of_bool (ft_string_all is_digit "012EAS67B9"));;
