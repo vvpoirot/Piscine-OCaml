@@ -1,0 +1,9 @@
+Launching VM:
+
+Insert CD img guest additions
+
+sudo mount /dev/cdrom /mnt
+sudo sh /mnt/VBoxLinuxAdditions.run
+sudo reboot
+
+sudo mount -t vboxsf shared-folder-ocaml /mnt/shared
