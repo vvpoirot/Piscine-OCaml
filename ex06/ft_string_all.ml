@@ -14,7 +14,7 @@ let ft_string_all f str =
 	in
 	ft_while ()
 
-let is_digit c = c >= '0' && c <= '9';;
+let is_digit c = c >= '0' && c <= '9';
 
 let () =
 	print_endline "test: 0123456789 expect true";
